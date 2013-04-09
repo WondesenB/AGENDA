@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/TitleName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/CateogryName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/travel_edit_title"
+                android:layout_width="120sp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/Name" />
+
+            <Spinner
+                android:id="@+id/travel_cat_spin"
+                android:layout_width="70sp"
+                android:layout_height="50sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Calendar"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/travel_caleType_spin"
+                android:layout_width="70sp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:entries="@array/Calendar_Type" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/startDate" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/Timelabel" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/TimeClass" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/travel_edit_startdate"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.3"
+                android:hint="@string/date_format"
+                android:inputType="date"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/travel_edit_starttime"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.2"
+                android:hint="@string/time_format"
+                android:inputType="time" />
+
+            <Spinner
+                android:id="@+id/travel_Timr1_spin"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/endDate" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/Timelabel" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/TimeClass" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/travel_edit_enddate"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.3"
+                android:hint="@string/date_format"
+                android:inputType="date"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/travel_edit_endtime"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.2"
+                android:hint="@string/time_format"
+                android:inputType="time" />
+
+            <Spinner
+                android:id="@+id/travel_Time2_spin"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/startingPlace" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/destinationPlace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/travel_edit_splace"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:hint="@string/startingPlace" />
+
+            <EditText
+                android:id="@+id/travel_edit_dplace"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:hint="@string/destinationPlace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/frequency"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/travel_fre_spin"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Note" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/travel_edit_note"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/travel_add_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">አጀንዳ</string>
+    <string name="deleteAll">ሁሉንም ሰርዝ </string>
+    <string name="action_settings">መቼት</string>
+    <string name="edit">አስተካክል</string>
+    <string name="mon_budget">ወርሀዊ በጀት</string>
+    <string name="today_event">ዛሬ</string>
+    <string name="week_event">በዚህ ሳምንት</string>
+    <string name="month_event">በዚህ ወር</string>
+    <string name="TitleName">ርዕስ</string>
+    <string name="CateogryName">ምድብ</string>
+    <string name="Name">ስም</string>
+    <string name="deleted">ተሰርዟል:</string>
+    <string name="close">ዝጋ</string>
+    <string name="update">አስተካክል</string>
+    <string name="updated">ተስተካክሏል</string>
+    <string name="Button">አስገባ</string>
+    <string name="Content_desc">ወደ ዝርዝሩ ቀይር</string>
+    <string name="refresh_desc">እንደና ክፈት</string>
+    <string name="todayevent">የዛሬ ድርጊቶች</string>
+    <string name="thismonthevent">የዚህ ወር ድርጊቶች</string>
+    <string name="thisweekevent">የዚህ ሳምንት ድርጊቶች</string>
+    <string name="startDate">የሚጀመርበት ቀን</string>
+    <string name="endDate">የመጨረሻ ቀን</string>
+    <string name="Timelabel">ሰዓት</string>
+    <string name="frequency">ድግግሞሽ</string>
+    <string name="DateHint">ቀን</string>
+    <string name="TimeHint">ሰዓት</string>
+    <string name="TimeClass">  ከቀኑ/ከምሽቱ</string>
+    <string name="Note"> ተጨማሪ  ገለፃ</string>
+    <string name="language">ቋንቋ</string>
+    <string name="Quit">ዝጋ</string>
+    <string name="category">ምድብ  </string>
+    <string name="title">ርዕስ</string>
+    <string name="endingTime">መጨረሻ ጊዜ  </string>
+    <string name="startingtime">መጀመሪያ ጊዜ   </string>
+    <string name="place">ቦታ</string>
+    <string name="startingPlace">መነሻ ቦታ</string>
+    <string name="destinationPlace">መድረሻ </string>
+    <string name="about">ስለ </string>
+    <string name="help">አጠቃቀም </string>
+    <string name="eventlist">ዝርዝር ሁነታወች</string>
+    <string name="add">አስገባ</string>
+    <string name="show">አሳይ</string>
+    <string name="amount">መጠን(ብር)</string>
+    <string name="salary">ደመወዝ</string>
+    <string name="business">ቢዝነስ</string>
+    <string name="pertime">የ ሰዓት ክፍያ</string>
+    <string name="other">ሌላ አይነት</string>
+    <string name="save">መዝግብ</string>
+    <string name="date">ቀን</string>
+    <string name="monthly_income"> ወርሀዊ  ገቢ</string>
+    <string name="food">ምግብ</string>
+    <string name="home">ቤት ክራይ</string>
+    <string name="billing">ክፍያ</string>
+    <string name="transport">መጓጓዣ</string>
+    <string name="family">ቤተሰብ</string>
+    <string name="education">ትምህርት</string>
+    <string name="entertainment">መዝናኛ</string>
+    <string name="zero">00.00</string>
+    <string name="health">ጤና</string>
+    <string name="month">ወር</string>
+    <string name="budget">በጀት</string>
+    <string name="difference">ልዩነት </string>
+    <string name="expense">ወጭ</string>
+    <string name="total">ድምር</string>
+    <string name="income">ገቢ</string>
+    <string name="balance">ቀሪ</string>
+    <string name="english">እንግሊዘኛ</string>
+    <string name="amharic">አማርኛ</string>
+    <string name="Ok">አው</string>
+    <string name="Delete">ሰርዝ</string>
+    <string name="monthly_total">ወርሀዊ ድምር</string>
+    <string name="date_format">ቀን/ወር/ዓም</string>
+    <string name="time_format">ሰዓት:ደቂቃ</string>
+    <string name="event">ሁነታወች</string>
+    <string name="cellebration_">ክብረ በዓል</string>
+    <string name="meeting_">ስብሰባ</string>
+    <string name="entertainment_">መዝናኛ</string>
+    <string name="education_">ትምህርት</string>
+    <string name="billing_">ክፍያ</string>
+    <string name="travel_">ጉዞ</string>
+    <string name="others_">ሌላ</string>
+    <string name="bill_event_added">የክፍያ መዝገብ ገብቷል</string>
+    <string name="meet_event_added">የስብሰባ መዝገብ ገብቷል</string>
+    <string name="budget_event_added">የበጀት መዝገብ ገብቷል</string>
+    <string name="celle_event_added">የክብረ በዓል መዝገብ ገብቷል</string>
+    <string name="edu_event_added">የትምህርት መዝገብ ገብቷል</string>
+    <string name="enter_event_added">የመዝናኛ መዝገብ ገብቷል</string>
+    <string name="income_event_added">የገቢ መዝገብ ገብቷል</string>
+    <string name="income_event_deleted">የገቢው መዝገብ ተሰርዟል</string>
+    <string name="budget_event_deleted">የበጀት መዝገብ ተሰርዟል</string>
+    <string name="others_event_added">ሌላ መዝገብ ገብቷል:</string>
+    <string name="travel_event_added">የጉዞ መዝገብ ገብቷል:</string>
+    <string name="note_deleted">ሁሉም ማስታወሻ ተሰርዟል:</string>
+    <string name="note_added">ማስታወሻው ተመዝግቧል:</string>
+    <string name="expense_deleted">በዚህ ቀን የነበረው ወጥ ተሰርዟል</string>
+    <string name="expense_added">የወጥ መዝገብ ገብቷል:</string>
+    <string name="error_dublicat">የመዝገብ ድግግሞሽ አጋጥሟል</string>
+    <string name="error_insert">በማስገባት ላይ እንዳለ ችግር አጋጥሞል</string>
+    <string name="caution">ጥንቃቄ</string>
+    <string name="No">አይ</string>
+    <string name="To">ወደ</string>
+    <string name="from">ከ</string>
+    <string name="At">በ</string>
+    <string name="yes">አው</string>
+    <string name="Calendar">ጊዜ አቆጣጠር</string>
+    <string name="slash">/</string>
+    <string name="convert">ቀይር</string>
+    <string name="dd">ቀን</string>
+    <string name="mm">ወር</string>
+    <string name="yyyy">ዓ.ም</string>
+    <string name="warning_msg">ይህን መዝገብ ከመረጃ  ቋቱ ለመሰረዝ እርግጠኛ ነህ</string>
+    <string name="warning_msg1">ሁሉንም ማስታወሻ ከመረጃ ቋቱ ለመሰረዝ እርግጠኛ ነህ</string>
+    <string name="info_msg">"ካሁን በፊት የተመዘገበ ተመሳሳይ መዝገብ አለ</string>
+    <string name="info_msg1">ባዶ ቦታ አይፈቀድም በ ዜሮ ይሙሉት</string>
+    <string name="warning_msg2">ይህ መዝገብ እንዲጠፋልህ ትሻለህ?</string>
+
+    <string-array name="travel_categroy">
+        <item>ለስራ</item>
+        <item>ለመዝናናት</item>
+        <item>ለጉብኝት</item>
+        <item>ለሌላ</item>
+    </string-array>
+    <string-array name="other_categroy">
+        <item>ምንም</item>
+        <item>የማይታወቅ</item>
+    </string-array>
+    <string-array name="meet_categroy">
+        <item>ስራ</item>
+        <item>ቢዝነስ</item>
+        <item>ጓደኛ</item>
+        <item>ቤተሰብ</item>
+        <item>ሌላ</item>
+    </string-array>
+    <string-array name="enter_categroy">
+        <item>ጨዋታ</item>
+        <item>ስፖርት</item>
+        <item>ፊልም</item>
+        <item>ጉብኝት</item>
+        <item>ሌላ</item>
+    </string-array>
+    <string-array name="edu_categroy">
+        <item>ትምህርት ጊዜ</item>
+        <item>ፈተና</item>
+        <item>ፕሮጀክት</item>
+        <item>አሳይመንት</item>
+        <item>ሌላ</item>
+    </string-array>
+    <string-array name="bill_categroy">
+        <item>ስልክ</item>
+        <item>መብራት</item>
+        <item>ቤት ክራይ</item>
+        <item>ውሀ</item>
+        <item>ት/ቤት</item>
+        <item>ሌላ</item>
+    </string-array>
+    <string-array name="cele_categroy">
+        <item>ሰርግ</item>
+        <item>ልደት</item>
+        <item>አመት በዓል</item>
+        <item>ለቅሶ</item>
+        <item>ምርቃት</item>
+        <item>ሌላ</item>
+    </string-array>
+    <string-array name="daytime">
+        <item>ከጧቱ</item>
+        <item>ከቀኑ</item>
+        <item>ከምሽቱ</item>
+        <item>ከሌሊቱ</item>
+    </string-array>
+    <string-array name="am_pm">
+        <item>ኤም</item>
+        <item>ፒም</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>ምንም</item>
+        <item>በየወሩ</item>
+        <item>በየአመቱ</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>አጠቃላይ</item>
+        <item> ክፍያ</item>
+        <item> ስብሰባ</item>
+        <item> ክብረ በዓል</item>
+        <item> ትምህርት</item>
+        <item> መዝናኛ</item>
+        <item> ጉዞ</item>
+        <item> ሌላ</item>
+        <item>ፋይናንስ</item>
+        <item> በጀት</item>
+        <item> ገቢ</item>
+        <item> ወጭ</item>
+        <item> ሪፖርት</item>
+        <item>አጋዠ መሳርያ</item>
+        <item> ጊዜ መቁጠሪያ</item>
+        <item> ማስታወሻ</item>
+    </string-array>
+    <string-array name="income_frequency">
+        <item>ምንም</item>
+        <item>በየወሩ</item>
+        <item>በየሳምንቱ</item>
+    </string-array>
+    <string-array name="report_month">
+        <item>ጥር</item>
+        <item>የካቲት</item>
+        <item>መጋቢት</item>
+        <item>ሚያዚያ</item>
+        <item>ግንቦት</item>
+        <item>ሰኔ</item>
+        <item>ሀምሌ</item>
+        <item>ነሀሴ</item>
+        <item>ጳጉሜ</item>
+        <item>መስከረም</item>
+        <item>ጥቅምት</item>
+        <item>ህዳር</item>
+        <item>ታህሳስ</item>
+    </string-array>
+    <string-array name="month_30">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="month_31">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="month_28">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="Calendar_Type">
+        <item>ኢትዮጰያን</item>
+        <item>ግሪጎርያን</item>
+    </string-array>
+
+    <string name="clear">አጥፋ</string>
+    <string name="wonde">© ወንደሰን.በ</string>
+    <string name="version">ቨርዠን 1.0</string>
+    <string name="introduction">AGENDA software helps to schedule day today activities.Clicking Toggling button from left top corner of the main  page will display list of categories.This software manage activities as follows.</string>
+    <string name="helpcontent_des">software information</string>
+    <string name="about_rsc">@drawable/about_et</string>
+    <string name="help0">@drawable/help0_et</string>
+    <string name="help1">@drawable/help1_et</string>
+    <string name="help2">@drawable/help2_et</string>
+    <string name="help3">@drawable/help3_et</string>
+    <string name="help4">@drawable/help4_et</string>
+    <string name="help5">@drawable/help5_et</string>
+
+</resources>

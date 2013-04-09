@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AGENDA</string>
+    <string name="deleteAll">Delete All</string>
+    <string name="edit">Edit</string>
+    <string name="mon_budget">Monthly Budget</string>
+    <string name="today_event">Today</string>
+    <string name="week_event">This week</string>
+    <string name="month_event">This month</string>
+    <string name="action_settings">Settings</string>
+    <string name="TitleName">Title</string>
+    <string name="CateogryName">Category</string>
+    <string name="Name">Name</string>
+    <string name="close">Close</string>
+    <string name="update">Update</string>
+    <string name="updated">Updated</string>
+    <string name="Button">Add</string>
+    <string name="Content_desc">Switch to List view</string>
+    <string name="refresh_desc">Reload</string>
+    <string name="todayevent">Today\'s Event</string>
+    <string name="thismonthevent">This Month\'s Event</string>
+    <string name="thisweekevent">This Week\'s Event</string>
+    <string name="startDate">Starting Date</string>
+    <string name="endDate">Ending Date</string>
+    <string name="Timelabel">Time</string>
+    <string name="frequency">Frequency</string>
+    <string name="DateHint">Date</string>
+    <string name="TimeHint">Time</string>
+    <string name="TimeClass">  AM/PM</string>
+    <string name="Note">  Description</string>
+    <string name="language">Language</string>
+    <string name="Quit">Quit</string>
+    <string name="category">Category  </string>
+    <string name="title">Title</string>
+    <string name="endingTime">Ending Time  </string>
+    <string name="startingtime">Starting Time   </string>
+    <string name="place">Place</string>
+    <string name="startingPlace">Starting Place</string>
+    <string name="destinationPlace">Destination </string>
+    <string name="about">About </string>
+    <string name="help">Help </string>
+    <string name="eventlist">EVENTS LIST</string>
+    <string name="add">add</string>
+    <string name="show">show</string>
+    <string name="amount">Amount(Birr)</string>
+    <string name="salary">Salary</string>
+    <string name="business">Business</string>
+    <string name="pertime">Pertime</string>
+    <string name="other">Others</string>
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+    <string name="monthly_income"> Monthly  Income</string>
+    <string name="food">Food</string>
+    <string name="home">Housing</string>
+    <string name="billing">Billing</string>
+    <string name="transport">Transport</string>
+    <string name="family">Family</string>
+    <string name="education">Education</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="zero">00.00</string>
+    <string name="health">Health</string>
+    <string name="month">Month</string>
+    <string name="budget">Budget</string>
+    <string name="difference">Difference </string>
+    <string name="expense">Expense</string>
+    <string name="total">Total</string>
+    <string name="income">Income</string>
+    <string name="balance">Balance</string>
+    <string name="english">English</string>
+    <string name="amharic">Amharic</string>
+    <string name="Ok">OK</string>
+    <string name="Delete">Delete</string>
+    <string name="monthly_total">Monthly Total</string>
+    <string name="date_format">dd/mm/yyyy</string>
+    <string name="time_format">hh:mm</string>
+    <string name="event">Events</string>
+    <string name="cellebration_">Celebration</string>
+    <string name="meeting_">Meeting</string>
+    <string name="entertainment_">Entertainment</string>
+    <string name="education_">Education</string>
+    <string name="billing_">Billing</string>
+    <string name="travel_">Travel</string>
+    <string name="others_">Others</string>
+    <string name="bill_event_added">Billing event added</string>
+    <string name="meet_event_added">Meeting event added</string>
+    <string name="budget_event_added">Budget event added</string>
+    <string name="celle_event_added">Cellebration event added</string>
+    <string name="edu_event_added">Education event added</string>
+    <string name="enter_event_added">Entertainmet event added</string>
+    <string name="income_event_added">Income  added</string>
+    <string name="income_event_deleted">Income  Deleted</string>
+    <string name="budget_event_deleted">Budget Deleted</string>
+    <string name="others_event_added">Others event added:</string>
+    <string name="travel_event_added">Travel event added:</string>
+    <string name="note_deleted">All note deleted:</string>
+    <string name="note_added">Note  added:</string>
+    <string name="deleted">Deleted:</string>
+    <string name="expense_deleted">Expense of this Date is Deleted</string>
+    <string name="expense_added">Expense added:</string>
+    <string name="error_dublicat">Error Duplicate value</string>
+    <string name="error_insert">Error while inserting</string>
+    <string name="caution">Caution</string>
+    <string name="No">No</string>
+    <string name="To">To</string>
+    <string name="from">From</string>
+    <string name="At">At</string>
+    <string name="yes">Yes</string>
+    <string name="Calendar">Calendar</string>
+    <string name="slash">/</string>
+    <string name="convert">Convert</string>
+    <string name="dd">DD</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="warning_msg">Are you suer you want to remove this data from the database?</string>
+    <string name="warning_msg1">Are you suer you want to remove all note from the database?</string>
+    <string name="info_msg">"There is saved data would u like to edit it</string>
+    <string name="info_msg1">empty space is not allow fill with zero</string>
+    <string name="warning_msg2">Are you sure you want to remove this event?</string>
+
+    <string-array name="travel_categroy">
+        <item>Work</item>
+        <item>Enjoyment</item>
+        <item>Visit</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="other_categroy">
+        <item>None</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="meet_categroy">
+        <item>Work</item>
+        <item>Busines</item>
+        <item>Friends</item>
+        <item>Family</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="enter_categroy">
+        <item>Game</item>
+        <item>Sport</item>
+        <item>Film</item>
+        <item>Tour</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="edu_categroy">
+        <item>Class</item>
+        <item>Exam</item>
+        <item>Project</item>
+        <item>Assignment</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="bill_categroy">
+        <item>Phone</item>
+        <item>Electricity</item>
+        <item>Home Rent</item>
+        <item>Water</item>
+        <item>School</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="cele_categroy">
+        <item>Weeding</item>
+        <item>Birthday</item>
+        <item>Holiday</item>
+        <item>Feneral</item>
+        <item>Graduation</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="am_pm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="daytime">
+        <item>Morning</item>
+        <item>Noon</item>
+        <item>Evening</item>
+        <item>Night</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>none</item>
+        <item>Per Month</item>
+        <item>Per Year</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>General</item>
+        <item> Billing</item>
+        <item> Meeting</item>
+        <item> Celebration</item>
+        <item> Education</item>
+        <item> Entertainment</item>
+        <item> Travel</item>
+        <item> Others</item>
+        <item>Finance</item>
+        <item> Budget</item>
+        <item> Income</item>
+        <item> Expense</item>
+        <item> Report</item>
+        <item>Tools</item>
+        <item> Calander</item>
+        <item> Note</item>
+    </string-array>
+    <string-array name="income_frequency">
+        <item>None</item>
+        <item>per month</item>
+        <item>per week</item>
+    </string-array>
+    <string-array name="report_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="month_30">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="month_31">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="month_28">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </string-array>
+    <string-array name="Calendar_Type">
+        <item>Ethiopian</item>
+        <item>Gregorian</item>
+    </string-array>
+
+    <string name="clear">Clear</string>
+    <string name="wonde">© Wondesen.B</string>
+    <string name="version">Version 1.0</string>
+    <string name="helpcontent_des">software information</string>
+    <string name="about_rsc">@drawable/about</string>
+    <string name="help0">@drawable/help0</string>
+    <string name="help1">@drawable/help1</string>
+    <string name="help2">@drawable/help2</string>
+    <string name="help3">@drawable/help3</string>
+    <string name="help4">@drawable/help4</string>
+    <string name="help5">@drawable/help5</string>
+
+</resources>

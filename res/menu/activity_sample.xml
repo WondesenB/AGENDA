@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Quit"
+        android:title="@string/Quit"/>
+    <item
+        android:id="@+id/About"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/Help"
+        android:showAsAction="ifRoom"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/language"
+        android:showAsAction="ifRoom"
+        android:title="@string/language">
+        <menu>
+            <item
+                android:id="@+id/english"
+                android:showAsAction="ifRoom"
+                android:title="@string/english"/>
+            <item
+                android:id="@+id/amharic"
+                android:showAsAction="ifRoom"
+                android:title="@string/amharic"/>
+        </menu>
+    </item>
+
+</menu>
